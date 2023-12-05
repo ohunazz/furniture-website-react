@@ -1,0 +1,61 @@
+.explore-section {
+    padding: 10.2rem 15.2rem;
+    position: relative;
+    /* margin-bottom: 115px;
+    margin-top: 166px; */
+}
+
+.couple {
+    width: 48.5rem;
+    height: 57.7rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+    background: #c4c4c4;
+}
+
+.explore-shape {
+    width: 19rem;
+    flex-shrink: 0;
+    fill: var(--green-color);
+    opacity: 0.9;
+    position: absolute;
+    bottom: 7rem;
+    left: 38rem;
+}
+.explore-section_left {
+    display: inline-block;
+}
+
+.explore-section_right p {
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 4.6rem;
+}
+
+.explore-section_right h3 {
+    color: var(--black-color);
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.04rem;
+    letter-spacing: -0.1rem;
+    margin-bottom: 2rem;
+}
+
+.explore-section_right {
+    position: absolute;
+    top: 18rem;
+    right: 33.8rem;
+}
+
+.explore-section_right span {
+    color: var(--black-color);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
+}
