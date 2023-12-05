@@ -1,0 +1,92 @@
+.footer-section {
+    padding: 10.2rem 6.1rem 6.3rem;
+    border-radius: 3rem;
+    background-color: var(--prime-color);
+    margin-bottom: 20rem;
+}
+#footer-section {
+    margin-bottom: 8rem;
+}
+
+.footer-logo p {
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 4.6rem;
+}
+
+.footer-logo {
+    margin-left: 9.5rem;
+}
+
+.footer-logo img {
+    margin-bottom: 7rem;
+}
+
+.footer-logo,
+.contact,
+.product,
+.company {
+    display: inline-block;
+    margin-right: 13rem;
+}
+
+.contact,
+.product,
+.company,
+h5 {
+    color: var(--black-color);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 7.3rem;
+    align-items: center;
+}
+
+.contact p {
+    margin-bottom: 2.2rem;
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+}
+
+.contact a {
+    display: block;
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 2.2rem;
+}
+
+.product a {
+    display: block;
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 2.2rem;
+}
+
+.company a {
+    display: block;
+    color: var(--black-color);
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 2.2rem;
+}
