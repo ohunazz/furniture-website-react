@@ -1,0 +1,73 @@
+#features-section {
+    padding: 10rem 15.2rem 8rem;
+}
+
+.features-section h4 {
+    color: var(--black-color);
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.2rem;
+    letter-spacing: -0.03rem;
+}
+
+.features-section p {
+    color: var(--black-color);
+    opacity: 0.8;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem;
+}
+
+.features-section .feature:not(:last-child) {
+    margin-right: 5rem;
+}
+
+.feature {
+    width: calc((100% - 12rem) / 3);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature-icon,
+.feature-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.feature-icon {
+    margin-right: 3.6rem;
+}
+
+.ellipse {
+    position: relative;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+
+.ellipse.shape-1 {
+    background-color: var(--light-green-color);
+    opacity: 0.4000000059604645;
+}
+
+.ellipse.shape-2 {
+    background-color: var(--light-orange-color);
+    opacity: 0.4000000059604645;
+}
+
+.ellipse.shape-3 {
+    background-color: var(--light-blue-color);
+}
+
+.ellipse .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-6 {
+    margin-bottom: 1rem;
+}
