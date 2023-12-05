@@ -4,7 +4,9 @@ import { Hero } from "./sections/hero/Hero";
 import { Process } from "./sections/process/Process";
 import { Product } from "./sections/product/Product";
 import { Review } from "./sections/review/Review";
+import { Subscribe } from "./sections/subscribe/Subscribe";
 import { TopNavigation } from "./sections/top-navigation/TopNavigation";
+import { Footer } from "./sections/footer/Footer";
 
 const Home = () => {
     return (
@@ -16,6 +18,8 @@ const Home = () => {
             <Process />
             <Explore />
             <Review />
+            <Subscribe />
+            <Footer />
         </>
     );
 };

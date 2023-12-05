@@ -1,0 +1,74 @@
+.subscribe-section h4 {
+    color: var(--black-color);
+    text-align: center;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 5.04rem;
+    letter-spacing: -0.1rem;
+    opacity: 0.9;
+    margin-bottom: 3.4rem;
+}
+
+.subscribe-text {
+    color: var(--black-color);
+    text-align: center;
+    margin-left: 53rem;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 5.7rem;
+    width: 50rem;
+}
+
+.subscribe-section #email {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-left: 50rem;
+    border-color: #dfdfdf;
+    height: 7rem;
+    width: 40.4rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.subscribe-section #button {
+    border-radius: 0 1rem 1rem 0;
+    background: var(--green-color);
+    border: none;
+    font-size: 1.7rem;
+    margin-left: -0.5rem;
+    border-color: #dfdfdf;
+    height: 7rem;
+    width: 20rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.lock {
+    margin-top: 3.3rem;
+    margin-left: 68rem;
+    margin-bottom: 12.5rem;
+}
+
+.lock p {
+    color: var(--black-color);
+    text-align: center;
+
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3rem;
+    opacity: 0.7;
+    margin-bottom: 5.7rem;
+}
+
+.lock img,
+.lock p {
+    display: inline-block;
+}
+
+.lock img {
+    margin-right: 1rem;
+}
