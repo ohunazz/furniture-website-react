@@ -1,0 +1,34 @@
+.logo {
+    height: auto;
+}
+
+.navigation {
+    margin: 0 auto;
+    padding: 4rem 15.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.navigation a {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    vertical-align: top;
+    /* width: 10%; */
+}
+
+.nav_links {
+    width: 81%;
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li:not(:last-child) {
+    margin-right: 5rem;
+}

@@ -1,0 +1,73 @@
+.hero-section {
+    background-color: var(--prime-color);
+    padding: 12.9rem 9.2rem;
+    margin-bottom: 10.7rem;
+    border-radius: 3rem;
+}
+.hero-section_left {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.hero-img {
+    position: relative;
+    z-index: 2;
+    height: auto;
+    width: 90%;
+}
+
+.circle-shape {
+    height: auto;
+    width: 66%;
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    right: 0;
+}
+
+.hero-section_right {
+    display: inline-block;
+    width: 53%;
+    padding-left: 10rem;
+    vertical-align: top;
+    vertical-align: middle;
+}
+
+.top-text {
+    color: var(--orange-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 3.4rem;
+    letter-spacing: 0.6rem;
+}
+
+h1 {
+    color: var(--black-color);
+    font-size: 6rem;
+    font-weight: 600;
+    margin-bottom: 2.7rem;
+    letter-spacing: -0.1rem;
+}
+.line {
+    margin-right: 1.5rem;
+}
+
+.p-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 5.8rem;
+    line-height: 2.8rem;
+    opacity: 0.69;
+}
+
+span {
+    color: var(--black-color);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.2rem;
+    letter-spacing: 0.4rem;
+}
